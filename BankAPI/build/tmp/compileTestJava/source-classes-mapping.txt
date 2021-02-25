@@ -1,0 +1,14 @@
+dev/houston/servicetests/GetAccountByClientIdTests.java
+ dev.houston.servicetests.GetAccountByClientIdTests
+dev/houston/daotests/ClientDaoTest.java
+ dev.houston.daotests.ClientDaoTest
+dev/houston/servicetests/SearchClientByNameTests.java
+ dev.houston.servicetests.SearchClientByNameTests
+dev/houston/servicetests/ClientServiceTest.java
+ dev.houston.servicetests.ClientServiceTest
+dev/houston/utilitests/ConnectionTest.java
+ dev.houston.utilitests.ConnectionTest
+dev/houston/servicetests/AccountServiceTests.java
+ dev.houston.servicetests.AccountServiceTests
+dev/houston/daotests/AccountDaoTest.java
+ dev.houston.daotests.AccountDaoTest

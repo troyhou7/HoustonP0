@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.houston.daotests.AccountDaoTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-02-24T16:19:26" hostname="Troys-MBP" time="0.059">
+  <properties/>
+  <testcase name="create_account()" classname="dev.houston.daotests.AccountDaoTest" time="0.02"/>
+  <testcase name="get_all_accounts()" classname="dev.houston.daotests.AccountDaoTest" time="0.022"/>
+  <testcase name="get_account_by_id()" classname="dev.houston.daotests.AccountDaoTest" time="0.002"/>
+  <testcase name="update_account()" classname="dev.houston.daotests.AccountDaoTest" time="0.002"/>
+  <testcase name="delete_account_by_id()" classname="dev.houston.daotests.AccountDaoTest" time="0.002"/>
+  <system-out><![CDATA[[Account{id=4, balance=200.0, clientId=0}, Account{id=2, balance=100.0, clientId=0}, Account{id=1, balance=100.0, clientId=0}, Account{id=3, balance=500.0, clientId=0}]
+Account{id=1, balance=100.0, clientId=0}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
