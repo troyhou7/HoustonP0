@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id "org.sonarqube" version "3.1.1"
 }
 
 group 'org.example'
@@ -19,6 +20,14 @@ dependencies {
     testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.7.7'
     testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '3.7.7'
     implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.18'
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "troyhou7_HoustonP0"
+    property "sonar.organization", "troyhou7"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
 }
 
 test {
